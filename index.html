@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+
+  <body class="d-flex align-items-center justify-content-center">
+    <div class="app-wrapper row">
+      <header
+        class="d-flex justify-content-between align-items-center col-12 p-3 mb-3"
+      >
+        <span class="material-symbols-outlined"> keyboard_return </span>
+        <h1>In Theatres</h1>
+        <span class="material-symbols-outlined"> menu </span>
+      </header>
+
+      <section>
+        <div class="d-flex justify-content-between col-12 title-rating">
+          <h2>Wonder Woman</h2>
+          <h3>8.1</h3>
+        </div>
+      </section>
+
+      <section class="vid-sect mb-5 mt-4">
+        <div
+          class="trailer-wrap d-flex justify-content-center align-items-center"
+        >
+          <video id="vid" controls width="300">
+            <source
+              src="https://neluttu.github.io/mobile-movie-ad/trailer.mp4"
+              type="video/mp4"
+            />
+            <a href="https://neluttu.github.io/mobile-movie-ad/trailer.mp4"
+              >MP4</a
+            >
+            video.
+          </video>
+          <button id="play-btn" data-state="visible">
+            <span class="material-symbols-outlined"> play_arrow </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="mt-15 mb-3 description-sect">
+        <h4 class="col-12">2h 21min</h4>
+        <p class="col-12">
+          Before she was Wonder Woman,She was Diana princess of the Amazons,
+          toned warrior. When a pilot crashes and tells of conflict in the
+          outside world, she leaves home to fight a war, discovering her full
+          powers and true destiny
+        </p>
+        <button
+          class="col-12 p-3 d-flex justify-content-center align-items-center"
+        >
+          Buy Ticket
+          <span class="material-symbols-outlined p-1"> local_activity </span>
+        </button>
+      </section>
+    </div>
+  </body>
+</html>

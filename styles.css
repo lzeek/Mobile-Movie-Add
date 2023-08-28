@@ -1,0 +1,89 @@
+/* Add CSS here */
+*{
+    margin: 0;
+    padding: 0;
+    --dark-navy: #042544;
+    --blue-light: #008AD3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--dark-navy);
+}
+
+.app-wrapper{
+    width: 350px;
+    box-shadow: 3px 3px 40px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+header{
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+header>h1{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.title-rating>h2{
+   color: var(--blue-light);
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+.title-rating>h3{
+    background-color: rgb(224, 224, 224);
+    padding: 7px;
+    border-radius: 100%;
+    font-size: 0.8rem;
+
+}
+
+.vid-sect{
+    position: relative;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/840/876/23/wonder-woman-dc-comics-gal-gadot-sword-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+
+#play-btn[data-state="hidden"]{
+    display: none;
+}
+
+#play-btn[data-state="visible"] {
+    display: block;
+}
+
+#play-btn{
+    position: absolute;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 100%;
+    display: flex;
+
+}
+
+#vid{
+   
+    box-shadow: 3px 3px 40px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.description-sect>button{
+    background-color: var(--blue-light);
+    border: none;
+    color: aliceblue;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+p{
+    font-size: 0.9rem;
+}
